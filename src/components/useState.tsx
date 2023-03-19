@@ -5,7 +5,6 @@ type Props = {}
 const useStatee = (props: Props) => {
     const [count, setCount] = useState(0);
     const [value, setValue] = useState("")
-    const [prodcuts, setProducts] = useState([])
 
     const handleClick = () => {
         document.title = `Click thứ ${count}`
